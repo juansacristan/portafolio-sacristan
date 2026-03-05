@@ -1,0 +1,1255 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+
+    <!-- Titulo de la pagina -->
+    <title>Sacristán Portafolio</title>
+
+    <!-- Meta Tags -->
+    <meta name="description" content="Portafolio personal de Juan Sacristán">
+    <meta name="keywords" content="Juan Sacristán, resume, resumen, portfolio, portafolio, personal page, pagina personal, cv, responsive, html, css, creativo, frontend, diseñador web, web">
+    <meta name="author" content="Juan Sacristán">
+
+    <!-- Viewport Meta-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+    <!-- Favicon -->
+    <link rel="icon" href="img/favicon/logo-S.svg" sizes="any">
+    <link rel="icon" href="img/favicon/logo-S.svg" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="img/favicon/logo-S.svg">
+        <link rel="manifest" href="img/favicon/manifest.webmanifest">
+
+    <!-- Favicon Fin -->
+
+    <!-- Facebook Metadata Start -->
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:title" content="Sacristán Portafolio">
+    <meta property="og:description" content="Portafolio personal de Juan Sacristán">
+    <!-- Facebook Metadata End -->
+
+    <!-- Estilo -->
+    <link rel="stylesheet" href="css/loaders/loader.css">
+    <link rel="stylesheet" type="text/css" href="css/plugins.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <!-- Estilo Fin -->
+
+    <!-- Color de navegador personalizado Start -->
+    <meta name="theme-color" media="(prefers-color-scheme: light)" content="#dcdce7">
+    <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#111111">
+    <meta name="msapplication-navbutton-color" content="#111111">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <!-- Color de navegador personalizado End -->
+  </head>
+
+  <body>
+
+    <!-- Cargador -->
+    <div id="loader" class="loader">
+      <div id="loaderContent" class="loader__content">
+        <div class="loader__shadow"></div>
+        <div class="loader__box"></div>
+      </div>
+    </div>
+    <!-- Cargador Fin -->
+
+    <!-- Encabezado -->
+    <header id="header" class="header d-flex justify-content-between">
+
+      <!-- Navegación Menu -->
+      <div class="header__navigation">
+        <nav id="menu" class="menu">
+          <ul class="menu__list d-flex justify-content-start">
+            <li class="menu__item">
+              <a class="menu__link btn" href="#inicio">
+                <span class="menu__caption">Inicio</span>
+                <i class="ph-bold ph-house-simple"></i>
+              </a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link btn" href="#portafolio">
+                <span class="menu__caption">Portafolio</span>
+                <i class="ph-bold ph-squares-four"></i>
+              </a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link btn" href="#sobre-mi">
+                <span class="menu__caption">Sobre mi</span>
+                <i class="ph-bold ph-user"></i>
+              </a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link btn" href="#resumen">
+                <span class="menu__caption">Resumen</span>
+                <i class="ph-bold ph-article"></i>
+              </a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link btn" href="#redessociales">
+                <span class="menu__caption">Redes sociales</span>
+                <i class="ph-bold ph-envelope"></i>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <!-- Navegación Menu -->
+
+      <!-- Controles de encabezado -->
+      <div class="header__controls d-flex justify-content-end">
+        <button id="color-switcher" class="color-switcher header__switcher btn" type="button" role="switch" aria-label="light/dark mode" aria-checked="true"></button>
+        <a id="notify-trigger" class="header__trigger btn" href="https://api.whatsapp.com/send?phone=573003405678&text=Hola" target="_blank">
+          <span class="trigger__caption">Hablemos</span>
+          <i class="ph-bold ph-chat-dots"></i>
+        </a>
+      </div>
+      <!-- Controles de encabezado Fin -->
+
+    </header>
+    <!-- Encabezado Fin -->
+
+    <!-- Fondo degradado -->
+    <div class="gradient-background">
+      <div class="blur"></div>
+      <div class="blur"></div>
+      <div class="blur"></div>
+    </div>
+    <!-- Fondo degradado Fin -->
+
+    <!-- Bloque lateral de Avatar -->
+    <div id="avatar" class="avatar">
+      <div class="avatar__container d-flex flex-column justify-content-lg-between">
+        <!-- imagen y logo -->
+        <div class="avatar__block">
+          <div class="avatar__logo d-flex align-items-center">
+            <div class="logo__image">
+              <!-- Tu logo -->
+              <img src="img/logo-S.svg" alt="Sacristan Portafolio y resumen HTML Logo">
+              <!-- <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+                width="85px" height="85px" viewBox="0 0 85 85" 
+                style="enable-background:new 0 0 85 85;" xml:space="preserve" class="gradient-fill">
+                <style type="text/css">
+                  .gradient-fill {
+                    fill: url(#gradientFill);
+                  }
+                </style>
+                <g>
+                  <linearGradient id="gradientFill" gradientUnits="userSpaceOnUse" x1="9.9604" y1="75.0338" x2="75.0387" y2="9.9555">
+                    <stop  offset="0" style="stop-color:var(--accent)"/>
+                    <stop  offset="1" style="stop-color:var(--secondary)"/>
+                  </linearGradient>
+                  <path class="gradient-fill" d="M51,0H34C15.2,0,0,15.2,0,34v17c0,14.3,8.9,26.6,21.4,31.6c0,0,0,0,0,0l0,0C25.3,84.1,29.5,85,34,85h17
+                    c6,0,11.7-1.6,16.6-4.3c0.1-0.1,0.2-0.1,0.3-0.2C78.1,74.6,85,63.6,85,51V34C85,15.2,69.8,0,51,0z M83,51c0,10.7-5.3,20.2-13.4,26
+                    v-2.5v-3.9h3.9v-3.9h-3.9v-3.9h3.9v-3.9h-3.9H67v-3.9V51h-3.9v3.9v3.9h2.6v3.9v3.9v3.9h-3.9h-3.9v3.9h3.9h3.9v3.9v1
+                    C61.3,81.7,56.3,83,51,83H34c-4.5,0-8.7-0.9-12.6-2.6v-2v-3.9h3.9h3.9v-3.9h-3.9h-3.9v-3.9v-3.9v-3.9H24v-3.9V51h-3.9v3.9v3.9h-2.6
+                    h-3.9v3.9h3.9v3.9h-3.9v3.9h3.9v3.9v3.9C8.2,72.8,2,62.6,2,51V34C2,16.4,16.4,2,34,2h17c17.6,0,32,14.4,32,32V51z M50.1,54.9H54
+                    v3.9v3.9h-3.9v-3.9V54.9z M33.1,54.9H37v3.9v3.9h-3.9v-3.9V54.9z M27.9,51H24v-3.9v-3.9v-3.9h3.9v3.9v3.9V51z M31.8,39.3h-3.9v-3.9
+                    h3.9V39.3z M31.8,43.2v-3.9h3.9v3.9H31.8z M63.1,47.1V51h-3.9v-3.9v-3.9v-3.9h3.9v3.9V47.1z M35.7,47.1v-3.9h3.9h3.9h3.9h3.9v3.9
+                    h-3.9h-3.9h-3.9H35.7z M59.2,39.3h-3.9v-3.9h3.9V39.3z M55.3,43.2h-3.9v-3.9h3.9V43.2z"/>
+                </g>
+              </svg> -->
+            </div>
+            <div class="logo__caption">
+              <p>Juan<br>Sacristán</p>
+            </div>
+          </div>
+          <div class="avatar__image">
+            <img src="img/avatars/avatar-js.jpg" alt="Sacristan - Personal Portafolio & Resumen HTML">
+          </div>
+        </div>
+        <!-- Leyenda de datos #1 -->
+        <div class="avatar__block">
+          <h6>
+            <small class="top">Especialización:</small>
+            Diseñador Gráfico,<br> Diseñador web y UX|UI<br> y Frontend
+          </h6>
+        </div>
+        <!-- Leyenda de datos #2 -->
+        <div class="avatar__block">
+          <h6>
+            <small class="top">Soy de:</small>
+            Bogotá, Colombia
+          </h6>
+        </div>
+        <!-- Botón de redes sociales y CTA -->
+        <div class="avatar__block">
+          <div class="avatar__socials">
+            <ul class="socials-square d-flex justify-content-between">
+              <li class="socials-square__item">
+                <a class="socials-square__link btn" href="https://www.behance.net/juanssacristan" target="_blank"><i class="ph-bold ph-behance-logo"></i></a>
+              </li>
+              <li class="socials-square__item">
+                <a class="socials-square__link btn" href="https://www.instagram.com/estesacristan/" target="_blank"><i class="ph-bold ph-instagram-logo"></i></a>
+              </li>
+              <li class="socials-square__item">
+                <a class="socials-square__link btn" href="https://www.linkedin.com/in/juan-sacristan/" target="_blank"><i class="ph-bold ph-linkedin-logo"></i></a>
+              </li>
+            </ul>
+          </div>
+          <div class="avatar__btnholder">
+            <a class="btn btn-default btn-fullwidth btn-hover btn-hover-accent" href="https://api.whatsapp.com/send?phone=573003405678&text=hola" target="_blank">
+              <span class="btn-caption">¡Trabajemos juntos!</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Bloque lateral de avatar Fin -->
+
+    <!-- Contenido de la página -->
+    <div id="content" class="content">
+      <div class="content__wrapper">
+
+        <!-- Sección de introducción -->
+        <section id="inicio" class="main intro">
+
+          <!-- Titulo -->
+          <div id="headline" class="headline d-flex align-items-start flex-column" data-speed="1">
+            <!-- <p class="headline__subtitle animate-headline">
+              <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="13px" height="13px" viewBox="0 0 13 13" fill="currentColor">
+                <path fill="currentColor" d="M5.6,12.6c-0.5-0.8-0.7-2.4-1.7-3.5c-1-1-2.7-1.2-3.5-1.7C-0.1,7-0.1,6,0.4,5.6c0.8-0.5,2.3-0.6,3.5-1.8
+                  C5,2.8,5.1,1.2,5.6,0.4C6-0.1,7-0.1,7.4,0.4c0.5,0.8,0.7,2.4,1.8,3.5c1.2,1.2,2.6,1.2,3.5,1.7c0.6,0.4,0.6,1.4,0,1.7
+                  C11.8,7.9,10.2,8,9.1,9.1c-1,1-1.2,2.7-1.7,3.5C7,13.1,6,13.1,5.6,12.6z"/>
+              </svg>
+              <span>¡Vamos a encontrarnos!</span>
+            </p> -->
+            <h1 class="headline__title animate-headline">Soy Juan Sacristán<br>Diseñador UX|UI, gráfico, web y Frontend.</h1>
+            <div class="headline__btnholder d-flex flex-column flex-sm-row">
+              <a class="btn mobile-vertical btn-default btn-hover btn-hover-accent-mobile animate-headline" href="#portafolio">
+                <span class="btn-caption">Mis proyectos</span>
+                <i class="ph-bold ph-squares-four"></i>
+              </a>
+              <a class="btn mobile-vertical btn-default btn-hover btn-hover-outline-mobile animate-headline" href="./assets/HV Juan Sacristan 2025 con link portafolio (Actualizar).pdf" download>
+                <span class="btn-caption">Descargar CV</span>
+                <i class="ph-bold ph-download-simple"></i>
+              </a>
+            </div>
+          </div>
+          <!-- Titulo Fin -->
+
+          <!-- Botón de desplazamiento -->
+          <div class="rotating-btn">
+            <a href="#portafolio" class="rotating-btn__link slide-down">
+              <!-- SVG Texto giratorio -->
+              <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                viewBox="0 0 120 120" style="enable-background:new 0 0 120 120;" xml:space="preserve" 
+                class="animate-rotation" data-value="360">
+                <defs>
+                  <path id="textPath" d="M110,59.5c0,27.6-22.4,50-50,50s-50-22.4-50-50s22.4-50,50-50S110,31.9,110,59.5z"/>
+                </defs>
+                <g>
+                  <use xlink:href="#textPath" fill="none"></use>
+                  <text>
+                    <!-- Boton ver mas!!! -->
+                    <textPath xlink:href="#textPath">Ver más * Ver más * Ver más * Ver más *</textPath>
+                  </text>
+                </g>
+              </svg>
+              <!-- Flecha icono -->
+              <i class="ph-bold ph-arrow-down"></i>
+            </a>
+          </div>
+          <!-- Botón de desplazamiento Fin -->
+
+        </section>
+        <!-- Introducción Fin -->
+
+        <!-- Seccion Portafolio -->
+        <section id="portafolio" class="inner inner-first portfolio">
+
+          <!-- Bloque de contenido - Título de sección H2 -->
+          <div class="content__block section-grid-title">
+            <p class="h2__subtitle animate-in-up">
+              <!-- <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="13px" height="13px" viewBox="0 0 13 13" fill="currentColor">
+                <path fill="currentColor" d="M5.6,12.6c-0.5-0.8-0.7-2.4-1.7-3.5c-1-1-2.7-1.2-3.5-1.7C-0.1,7-0.1,6,0.4,5.6c0.8-0.5,2.3-0.6,3.5-1.8
+                  C5,2.8,5.1,1.2,5.6,0.4C6-0.1,7-0.1,7.4,0.4c0.5,0.8,0.7,2.4,1.8,3.5c1.2,1.2,2.6,1.2,3.5,1.7c0.6,0.4,0.6,1.4,0,1.7
+                  C11.8,7.9,10.2,8,9.1,9.1c-1,1-1.2,2.7-1.7,3.5C7,13.1,6,13.1,5.6,12.6z"/>
+              </svg> -->
+              <span>Portafolio</span>
+            </p>
+            <h2 class="h2__title animate-in-up">Echa un vistazo a mis proyectos destacados</h2>
+          </div>
+          <!-- Bloque de contenido - Título de sección H2 Fin -->
+
+          <!-- Bloque de contenido - Galería de trabajos -->
+          <div class="content__block grid-block">
+            <div class="container-fluid px-0 inner__gallery">
+              <div class="row gx-0 my-gallery" itemscope itemtype="http://schema.org/ImageGallery">
+    
+                <!-- Item de la galería de trabajo -->
+                <figure class="col-12 col-md-6 gallery__item grid-item animate-card-2" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+                  <a href="./img/works/web-badford-1400.png"  data-image="./img/works/web-badford-800.png" class="gallery__link" itemprop="contentUrl" data-size="1400x1400">
+                    <img src="./img/works/web-badford-800.png" class="gallery__image" itemprop="thumbnail" alt="Image description">
+                  </a>
+                  <figcaption class="gallery__descr" itemprop="caption description">
+                    <h5>Badford International Virtual School</h5>
+                    <div class="card__tags d-flex flex-wrap">
+                      <span class="rounded-tag opposite">UX</span>
+                      <span class="rounded-tag opposite">UI</span>
+                      <span class="rounded-tag opposite">Wordpress</span>
+                      <span class="rounded-tag opposite">Diseño Web</span>
+                      <span class="rounded-tag opposite">Frontend</span>
+                    </div>
+                    <p class="small">Creé un sitio institucional moderno, responsivo y claro para una escuela virtual K-12 con certificaciones internacionales. El diseño comunica credibilidad y frescura, con navegación intuitiva, secciones estratégicas, cursos destacados y testimonios reales. Un balance entre tradición y modernidad que refleja innovación educativa sin perder la sobriedad. <a href="https://bradfordvirtual.school/es/" class="text-link-bold" target="_blank">Ver pagina web</a>
+                    </p>
+                  </figcaption>
+                </figure>
+                <!-- Item de la galería de trabajo Fin -->
+    
+                <!-- Item de la galería de trabajo -->
+                <figure class="col-12 col-md-6 gallery__item grid-item animate-card-2" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+                  <a href="https://dummyimage.com/1400x1400/3c3c3c/636363" data-image="./img/works/web-bcgroup-800.png" class="gallery__link" itemprop="contentUrl" data-size="1400x1400">
+                    <img src="./img/works/web-bcgroup-800.png" class="gallery__image" itemprop="thumbnail" alt="Image description">
+                  </a>
+                  <figcaption class="gallery__descr opposite" itemprop="caption description">
+                    <h5 class="opposite">British Columbia Education Group</h5>
+                    <div class="card__tags d-flex flex-wrap">
+                      <span class="rounded-tag opposite">Wordpress</span>
+                      <span class="rounded-tag opposite">Diseño Web</span>
+                      <span class="rounded-tag opposite">Frontend</span>
+                    </div>
+                    <p class="small">Sitio web corporativo en WordPress diseñado para fortalecer la presencia digital del grupo educativo, optimizando identidad visual, conversión y posicionamiento SEO. <a href="https://bcgroup.edu.co/" class="text-link-bold" target="_blank">Ver pagina web</a>
+                    </p>
+                  </figcaption>
+                </figure>
+                <!-- Item de la galería de trabajo Fin -->
+    
+                <!-- Item de la galería de trabajo -->
+                <figure class="col-12 col-md-6 gallery__item grid-item animate-card-2" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+                  <a href="https://dummyimage.com/1400x1400/3c3c3c/636363" data-image="./img/works/web-pe-800.png" class="gallery__link" itemprop="contentUrl" data-size="1400x1400">
+                    <img src="./img/works/web-pe-800.png" class="gallery__image" itemprop="thumbnail" alt="Image description">
+                  </a>
+                  <figcaption class="gallery__descr opposite" itemprop="caption description">
+                    <h5 class="opposite">Pequeños encantos</h5>
+                    <div class="card__tags d-flex flex-wrap">
+                      <span class="rounded-tag opposite">UX</span>
+                      <span class="rounded-tag opposite">UI</span>
+                      <span class="rounded-tag opposite">Wordpress</span>
+                      <span class="rounded-tag opposite">Diseño Web</span>
+                      <span class="rounded-tag opposite">Frontend</span>
+                    </div>
+                    <p class="small">Web optimizada para captación de familias, con diseño amigable, navegación intuitiva y estructura enfocada en comunicar seguridad, metodología y diferencial educativo. <a href="https://pequenosencantos.edu.co/" class="text-link-bold" target="_blank">Ver pagina web</a>
+                    </p>
+                  </figcaption>
+                </figure>
+                <!-- Item de la galería de trabajo Fin -->
+
+                <!-- Item de la galería de trabajo -->
+                <figure class="col-12 col-md-6 gallery__item grid-item animate-card-2" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+                  <a href="https://dummyimage.com/1400x1400/3c3c3c/636363" data-image="./img/works/web-birmingham-800.png" class="gallery__link" itemprop="contentUrl" data-size="1400x1400">
+                    <img src="./img/works/web-birmingham-800.png" class="gallery__image" itemprop="thumbnail" alt="Image description">
+                  </a>
+                  <figcaption class="gallery__descr opposite" itemprop="caption description">
+                    <h5 class="opposite">Birmingham International Virtual School</h5>
+                    <div class="card__tags d-flex flex-wrap">
+                      <span class="rounded-tag opposite">UX</span>
+                      <span class="rounded-tag opposite">UI</span>
+                      <span class="rounded-tag opposite">Wordpress</span>
+                      <span class="rounded-tag opposite">Diseño Web</span>
+                      <span class="rounded-tag opposite">Frontend</span>
+                    </div>
+                    <p class="small">Desarrollo web en entorno optimizado para alto desempeño, diseño responsive y estructura orientada a captación de estudiantes en mercados globales. <a href="https://birminghamvirtual.school/" class="text-link-bold" target="_blank">Ver pagina web</a>
+                    </p>
+                  </figcaption>
+                </figure>
+                <!-- Item de la galería de trabajo Fin -->
+    
+                <!-- Item de la galería de trabajo -->
+                <figure class="col-12 col-md-6 gallery__item grid-item animate-card-2" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+                  <a href="https://dummyimage.com/1400x1400/3c3c3c/636363" data-image="./img/works/web-bradfordglobal-800.png" class="gallery__link" itemprop="contentUrl" data-size="1400x1400">
+                    <img src="./img/works/web-bradfordglobal-800.png" class="gallery__image" itemprop="thumbnail" alt="Image description">
+                  </a>
+                  <figcaption class="gallery__descr " itemprop="caption description">
+                    <h5>Bradford Global Education</h5>
+                    <div class="card__tags d-flex flex-wrap">
+                      <span class="rounded-tag opposite">UX</span>
+                      <span class="rounded-tag opposite">UI</span>
+                      <span class="rounded-tag opposite">Wordpress</span>
+                      <span class="rounded-tag opposite">Diseño Web</span>
+                      <span class="rounded-tag opposite">Frontend</span>
+                    </div>
+                    <p class="small">Sitio web institucional diseñado para proyectar liderazgo en el sector educativo, fortaleciendo identidad, confianza y presencia digital global. <a href="https://bradfordge.org/" class="text-link-bold" target="_blank">Ver pagina web</a>
+                    </p>
+                  </figcaption>
+                </figure>
+                <!-- Item de la galería de trabajo Fin -->
+
+                <!-- Item de la galería de trabajo -->
+                <figure class="col-12 col-md-6 gallery__item grid-item animate-card-2" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+                  <a href="https://dummyimage.com/1400x1400/3c3c3c/636363" data-image="./img/works/web-altavista-800.png" class="gallery__link" itemprop="contentUrl" data-size="1400x1400">
+                    <img src="./img/works/web-altavista-800.png" class="gallery__image" itemprop="thumbnail" alt="Image description">
+                  </a>
+                  <figcaption class="gallery__descr " itemprop="caption description">
+                    <h5>Altavista consulting group</h5>
+                    <div class="card__tags d-flex flex-wrap">
+                      <span class="rounded-tag opposite">UX</span>
+                      <span class="rounded-tag opposite">UI</span>
+                      <span class="rounded-tag opposite">Wordpress</span>
+                      <span class="rounded-tag opposite">Diseño Web</span>
+                      <span class="rounded-tag opposite">Frontend</span>
+                    </div>
+                    <p class="small">Desarrollo web corporativo para firma de consultoría, con diseño sobrio, estructura clara y enfoque en posicionamiento estratégico y generación de confianza. <a href="https://altavista-consulting.com/" class="text-link-bold" target="_blank">Ver pagina web</a>
+                    </p>
+                  </figcaption>
+                </figure>
+                <!-- Item de la galería de trabajo Fin -->
+
+                <!-- Item de la galería de trabajo -->
+                <figure class="col-12 col-md-6 gallery__item grid-item animate-card-2" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+                  <a href="https://dummyimage.com/1400x1400/3c3c3c/636363" data-image="./img/works/web-abogadosarevalo-800.png" class="gallery__link" itemprop="contentUrl" data-size="1400x1400">
+                    <img src="./img/works/web-abogadosarevalo-800.png" class="gallery__image" itemprop="thumbnail" alt="Image description">
+                  </a>
+                  <figcaption class="gallery__descr " itemprop="caption description">
+                    <h5>Abogados Arévalo</h5>
+                    <div class="card__tags d-flex flex-wrap">
+                      <span class="rounded-tag opposite">UX</span>
+                      <span class="rounded-tag opposite">UI</span>
+                      <span class="rounded-tag opposite">Wordpress</span>
+                      <span class="rounded-tag opposite">Diseño Web</span>
+                      <span class="rounded-tag opposite">Frontend</span>
+                    </div>
+                    <p class="small">Sitio web institucional diseñado para proyectar solidez legal, experiencia y respaldo profesional, optimizando presencia digital y captación de clientes. <a href="https://www.abogadosarevalo.com/" class="text-link-bold" target="_blank">Ver pagina web</a>
+                    </p>
+                  </figcaption>
+                </figure>
+                <!-- Item de la galería de trabajo Fin -->
+
+                <!-- Item de la galería de trabajo -->
+                <figure class="col-12 col-md-6 gallery__item grid-item animate-card-2" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+                  <a href="https://dummyimage.com/1400x1400/3c3c3c/636363" data-image="./img/works/web-2cargo-800.png" class="gallery__link" itemprop="contentUrl" data-size="1400x1400">
+                    <img src="./img/works/web-2cargo-800.png" class="gallery__image" itemprop="thumbnail" alt="Image description">
+                  </a>
+                  <figcaption class="gallery__descr " itemprop="caption description">
+                    <h5>2cargo xpress</h5>
+                    <div class="card__tags d-flex flex-wrap">
+                      <span class="rounded-tag opposite">UX</span>
+                      <span class="rounded-tag opposite">UI</span>
+                      <span class="rounded-tag opposite">Wordpress</span>
+                      <span class="rounded-tag opposite">Diseño Web</span>
+                      <span class="rounded-tag opposite">Frontend</span>
+                    </div>
+                    <p class="small-1">Plataforma web estratégica para empresa de transporte, con arquitectura optimizada y comunicación clara orientada a generación de cotizaciones y clientes. <a href="https://www.2cargoxpress.com/" class="text-link-bold" target="_blank">Ver pagina web</a>
+                    </p>
+                  </figcaption>
+                </figure>
+                <!-- Item de la galería de trabajo Fin -->
+
+                <!-- Item de la galería de trabajo -->
+                <figure class="col-12 col-md-6 gallery__item grid-item animate-card-2" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+                  <a href="https://dummyimage.com/1400x1400/3c3c3c/636363" data-image="./img/works/web-federated-800.png" class="gallery__link" itemprop="contentUrl" data-size="1400x1400">
+                    <img src="./img/works/web-federated-800.png" class="gallery__image" itemprop="thumbnail" alt="Image description">
+                  </a>
+                  <figcaption class="gallery__descr " itemprop="caption description">
+                    <h5>Federated healt Charities</h5>
+                    <div class="card__tags d-flex flex-wrap">
+                      <span class="rounded-tag opposite">UX</span>
+                      <span class="rounded-tag opposite">UI</span>
+                      <span class="rounded-tag opposite">Wordpress</span>
+                      <span class="rounded-tag opposite">Diseño Web</span>
+                      <span class="rounded-tag opposite">Frontend</span>
+                    </div>
+                    <p class="small">Desarrollo web profesional con diseño responsive, optimización técnica y estructura enfocada en claridad informativa y rendimiento digital. <a href="https://federatedhealth.ca/" class="text-link-bold" target="_blank">Ver pagina web</a>
+                    </p>
+                  </figcaption>
+                </figure>
+                <!-- Item de la galería de trabajo Fin -->
+
+                <!-- Item de la galería de trabajo -->
+                <figure class="col-12 col-md-6 gallery__item grid-item animate-card-2" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+                  <a href="https://dummyimage.com/1400x1400/3c3c3c/636363" data-image="./img/works/web-grupoguiar-800.png" class="gallery__link" itemprop="contentUrl" data-size="1400x1400">
+                    <img src="./img/works/web-grupoguiar-800.png" class="gallery__image" itemprop="thumbnail" alt="Image description">
+                  </a>
+                  <figcaption class="gallery__descr " itemprop="caption description">
+                    <h5>Grupo guiar abogados</h5>
+                    <div class="card__tags d-flex flex-wrap">
+                      <span class="rounded-tag opposite">UX</span>
+                      <span class="rounded-tag opposite">UI</span>
+                      <span class="rounded-tag opposite">Wordpress</span>
+                      <span class="rounded-tag opposite">Diseño Web</span>
+                      <span class="rounded-tag opposite">Frontend</span>
+                    </div>
+                    <p class="small">Diseño y desarrollo web enfocado en transformar servicios legales complejos en una experiencia digital clara, estructurada y accesible para el cliente. <a href="https://www.grupoguiarabogados.com/" class="text-link-bold" target="_blank">Ver pagina web</a>
+                    </p>
+                  </figcaption>
+                </figure>
+                <!-- Item de la galería de trabajo Fin -->
+
+                <!-- Item de la galería de trabajo -->
+                <figure class="col-12 col-md-6 gallery__item grid-item animate-card-2" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+                  <a href="https://dummyimage.com/1400x1400/3c3c3c/636363" data-image="./img/works/web-truemate-800.png" class="gallery__link" itemprop="contentUrl" data-size="1400x1400">
+                    <img src="./img/works/web-truemate-800.png" class="gallery__image" itemprop="thumbnail" alt="Image description">
+                  </a>
+                  <figcaption class="gallery__descr " itemprop="caption description">
+                    <h5>Truemate group</h5>
+                    <div class="card__tags d-flex flex-wrap">
+                      <span class="rounded-tag opposite">UX</span>
+                      <span class="rounded-tag opposite">UI</span>
+                      <span class="rounded-tag opposite">Wordpress</span>
+                      <span class="rounded-tag opposite">Diseño Web</span>
+                      <span class="rounded-tag opposite">Frontend</span>
+                    </div>
+                    <p class="small">Plataforma digital diseñada para consolidar autoridad empresarial, facilitando conexiones estratégicas y fortaleciendo la imagen corporativa internacional. <a href="https://www.truemategroup.com/" class="text-link-bold" target="_blank">Ver pagina web</a>
+                    </p>
+                  </figcaption>
+                </figure>
+                <!-- Item de la galería de trabajo Fin -->
+
+                <!-- Item de la galería de trabajo -->
+                <figure class="col-12 col-md-6 gallery__item grid-item animate-card-2" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+                  <a href="https://dummyimage.com/1400x1400/3c3c3c/636363" data-image="./img/works/Web-siete24-800.png" class="gallery__link" itemprop="contentUrl" data-size="1400x1400">
+                    <img src="./img/works/Web-siete24-800.png" class="gallery__image" itemprop="thumbnail" alt="Image description">
+                  </a>
+                  <figcaption class="gallery__descr " itemprop="caption description">
+                    <h5>Siete24</h5>
+                    <div class="card__tags d-flex flex-wrap">
+                      <span class="rounded-tag opposite">UX</span>
+                      <span class="rounded-tag opposite">UI</span>
+                      <span class="rounded-tag opposite">Wordpress</span>
+                      <span class="rounded-tag opposite">Diseño Web</span>
+                      <span class="rounded-tag opposite">Frontend</span>
+                    </div>
+                    <p class="small">Construcción de sitio web corporativo con arquitectura clara, diseño profesional y enfoque en crecimiento empresarial. <a href="https://siete24.com/" class="text-link-bold" target="_blank">Ver pagina web</a>
+                    </p>
+                  </figcaption>
+                </figure>
+                <!-- Item de la galería de trabajo Fin -->
+
+                <!-- Item de la galería de trabajo -->
+                <figure class="col-12 col-md-6 gallery__item grid-item animate-card-2" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+                  <a href="https://dummyimage.com/1400x1400/3c3c3c/636363" data-image="./img/works/web-tsslatam-800.png" class="gallery__link" itemprop="contentUrl" data-size="1400x1400">
+                    <img src="./img/works/web-tsslatam-800.png" class="gallery__image" itemprop="thumbnail" alt="Image description">
+                  </a>
+                  <figcaption class="gallery__descr " itemprop="caption description">
+                    <h5>TSS Latam</h5>
+                    <div class="card__tags d-flex flex-wrap">
+                      <span class="rounded-tag opposite">UX</span>
+                      <span class="rounded-tag opposite">UI</span>
+                      <span class="rounded-tag opposite">Wordpress</span>
+                      <span class="rounded-tag opposite">Diseño Web</span>
+                      <span class="rounded-tag opposite">Frontend</span>
+                    </div>
+                    <p class="small">Desarrollo web corporativo para empresa de soluciones tecnológicas en Latinoamérica, con enfoque en innovación, estructura estratégica y posicionamiento digital. <a href="https://tsslatam.com/" class="text-link-bold" target="_blank">Ver pagina web</a>
+                    </p>
+                  </figcaption>
+                </figure>
+                <!-- Item de la galería de trabajo Fin -->
+              </div>
+            </div>
+          </div>
+          <!-- Bloque de contenido - Galería de trabajos Fin -->
+
+        </section>
+        <!-- Seccion Portafolio Fin -->
+
+        <!-- Sección Acerca de Start -->
+        <section id="sobre-mi" class="inner about">
+
+          <!-- Bloque de contenido - Título de sección H2 -->
+          <div class="content__block section-grid-title">
+            <p class="h2__subtitle animate-in-up">
+              <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="13px" height="13px" viewBox="0 0 13 13" fill="currentColor">
+                <path fill="currentColor" d="M5.6,12.6c-0.5-0.8-0.7-2.4-1.7-3.5c-1-1-2.7-1.2-3.5-1.7C-0.1,7-0.1,6,0.4,5.6c0.8-0.5,2.3-0.6,3.5-1.8
+                  C5,2.8,5.1,1.2,5.6,0.4C6-0.1,7-0.1,7.4,0.4c0.5,0.8,0.7,2.4,1.8,3.5c1.2,1.2,2.6,1.2,3.5,1.7c0.6,0.4,0.6,1.4,0,1.7
+                  C11.8,7.9,10.2,8,9.1,9.1c-1,1-1.2,2.7-1.7,3.5C7,13.1,6,13.1,5.6,12.6z"/>
+              </svg>
+              <span>Sobre mi</span>
+            </p>
+            <h2 class="h2__title animate-in-up">No crecí en el ruido. Crecí en la precisión</h2>
+          </div>
+          <!-- Bloque de contenido - Título de sección H2 Fin -->
+
+          <!-- Bloque de contenido - Inicio de logros -->
+          <div class="content__block grid-block">
+            <div class="achievements d-flex flex-column flex-md-row align-items-md-stretch">
+              <!-- Item individual -->
+              <!-- <div class="achievements__item d-flex flex-column grid-item animate-card-3">
+                <div class="achievements__card">
+                  <p class="achievements__number">40+</p>
+                  <p class="achievements__descr">Happy clients</p>
+                </div>
+              </div> -->
+              <!-- Item individual -->
+              <div class="achievements__item d-flex flex-column grid-item animate-card-3">
+                <div class="achievements__card">
+                  <p class="achievements__number">7+</p>
+                  <p class="achievements__descr">Años de experiencia</p>
+                </div>
+              </div>
+              <!-- Item individual -->
+              <div class="achievements__item d-flex flex-column grid-item animate-card-3">
+                <div class="achievements__card">
+                  <p class="achievements__number">10+</p>
+                  <p class="achievements__descr">Proyectos realizados</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Bloque de contenido - Inicio de logros Fin -->
+
+          <!-- Bloque de contenido - Datos sobre mí -->
+          <div class="content__block grid-block block-large">
+            <div class="container-fluid p-0">
+              <div class="row g-0 justify-content-between">
+                
+                <!-- Sobre mi descripcion -->
+                <div class="col-12 col-xl-8 grid-item about-descr">
+                  <p class="about-descr__text animate-in-up">
+                    Escucho el mundo de una forma distinta, entre silencios y sonidos que llegan como destellos.
+                    En el diseño y el código encontré un idioma propio, capaz de transformar lo complejo en experiencias simples, claras y accesibles.
+                  </p>
+                  <p class="about-descr__text animate-in-up">
+                    Como diseñador UX|UI, gráfico, web y Front-End, construyo puentes invisibles donde la creatividad se une con la lógica, y la tecnología se convierte en un espacio que todos puedan habitar sin barreras.
+                    <!-- <a href="#0" class="text-link">might have been</a>  -->
+                  </p>
+                  <div class="btn-group about-descr__btnholder animate-in-up">
+                    <a class="btn mobile-vertical btn-default btn-hover btn-hover-accent" href="./assets/HV Juan Sacristan 2025 con link portafolio (Actualizar).pdf" download>
+                      <span class="btn-caption">Descargar CV</span>
+                      <i class="ph-bold ph-download-simple"></i>
+                    </a>
+                  </div>
+                </div>
+                <!-- Sobre mi descripcion Fin -->
+      
+                <!-- Sobre mi datos -->
+                <div class="col-12 col-xl-4 grid-item about-info">
+                  <div class="about-info__item animate-in-up">
+                    <h6>
+                      <small class="top">Nombre</small>
+                      Juan Sacristán
+                    </h6>
+                  </div>
+                  <div class="about-info__item animate-in-up">
+                    <h6>
+                      <small class="top">WhatsApp</small>
+                      <a class="text-link-bold" href="https://api.whatsapp.com/send?phone=573003405678&text=hola">+57 300 340 5678</a>
+                    </h6>
+                  </div>
+                  <div class="about-info__item animate-in-up">
+                    <h6>
+                      <small class="top">Email</small>
+                      <a class="text-link-bold" href="mailto:juanenciso1007@gmail.com?subject=Message%20from%20your%20site">juanenciso1007@gmail.com</a>
+                    </h6>
+                  </div>
+                  <div class="about-info__item animate-in-up">
+                    <h6>
+                      <small class="top">Ciudad</small>
+                      <a class="text-link-bold" href="https://maps.app.goo.gl/ZKFkysM7wowWeXM59" target="_blank">Bogotá, Colombia</a>
+                    </h6>
+                  </div>
+                </div>
+                <!-- Sobre mi datos Fin -->
+      
+              </div>
+            </div>
+          </div>
+          <!-- Bloque de contenido - Datos sobre mí Fin -->
+
+          <!-- Bloque de contenido - Servicios -->
+          <div class="content__block grid-block">
+            <div class="container-fluid p-0">
+              <div class="row g-0 align-items-stretch cards">
+                <!-- Card servicio individual -->
+                <div class="col-12 col-md-6 cards__item grid-item animate-card-2">
+                  <div class="cards__card d-flex flex-column">
+                    <div class="cards__descr">
+                      <h4 class="cards__title animate-in-up">Desarrollo<br>Frontend</h4>
+                      <div class="cards__tags d-flex flex-wrap animate-in-up">
+                        <span class="rounded-tag tag-outline">Visual Studio Code</span>
+                        <span class="rounded-tag tag-outline">Codigo</span>
+                      </div>
+                      <p class="small cards__text animate-in-up">Front-End es la implementación de interfaces digitales utilizando tecnologías como HTML, CSS y JavaScript, asegurando rendimiento, accesibilidad y experiencia fluida en cada dispositivo.</p>
+                    </div>
+                    <div class="cards__image d-flex animate-in-up">
+                      <img src="./img/services/desarrollo-frontend.png" alt="Programador Front End, web, codigo">
+                    </div>
+                  </div>
+                </div>
+                <!-- Card servicio individual -->
+                <div class="col-12 col-md-6 cards__item grid-item animate-card-2">
+                  <div class="cards__card d-flex flex-column">
+                    <div class="cards__descr">
+                      <h4 class="cards__title animate-in-up">Diseño UX | UI</h4>
+                      <div class="cards__tags d-flex flex-wrap animate-in-up">
+                        <span class="rounded-tag tag-outline">Usuario</span>
+                        <span class="rounded-tag tag-outline">Figma</span>
+                        <span class="rounded-tag tag-outline">Wireframe</span>
+                        <span class="rounded-tag tag-outline">Analisis</span>
+                      </div>
+                      <p class="small cards__text animate-in-up">El diseño UX|UI combina investigación, estructura y diseño visual para construir interfaces digitales accesibles, usables y alineadas con los objetivos del usuario y del negocio.
+                      </p>
+                    </div>
+                    <div class="cards__image d-flex animate-in-up">
+                      <img src="./img/services/diseno-ux-ui.png" alt="Diseño ui ui">
+                    </div>
+                  </div>
+                </div>
+                <!-- Card servicio individual -->
+                <div class="col-12 col-md-6 cards__item grid-item animate-card-2">
+                  <div class="cards__card d-flex flex-column">
+                    <div class="cards__descr">
+                      <h4 class="cards__title animate-in-up">Diseño Grafico</h4>
+                      <div class="cards__tags d-flex flex-wrap animate-in-up">
+                        <span class="rounded-tag tag-outline">Adobe Suite</span>
+                        <span class="rounded-tag tag-outline">Ilustración vectorial</span>
+                        <span class="rounded-tag tag-outline">Social media</span>
+                        <span class="rounded-tag tag-outline">Edicion Video</span>
+                      </div>
+                      <p class="small cards__text animate-in-up">Servicios de diseño gráfico para medios digitales e impresos, creación de contenido para redes sociales, edición de video para distintas plataformas e ilustración vectorial.
+                      </p>
+                    </div>
+                    <div class="cards__image d-flex">
+                      <img src="./img/services/diseno-grafico.png" alt="Diseño gráfico">
+                    </div>
+                  </div>
+                </div>
+                <!-- Card servicio individual -->
+                <div class="col-12 col-md-6 cards__item grid-item animate-card-2">
+                  <div class="cards__card d-flex flex-column">
+                    <div class="cards__descr">
+                      <h4 class="cards__title animate-in-up">Diseño web</h4>
+                      <div class="cards__tags d-flex flex-wrap animate-in-up">
+                        <span class="rounded-tag tag-outline">Adobe Suite</span>
+                        <span class="rounded-tag tag-outline">Wordpress</span>
+                        <span class="rounded-tag tag-outline">Elementor</span>
+                        <span class="rounded-tag tag-outline">Divi</span>
+                        <span class="rounded-tag tag-outline">Framer</span>
+                        <span class="rounded-tag tag-outline">Webflow</span>
+                      </div>
+                      <p class="small cards__text animate-in-up">Diseño y desarrollo web adaptable a múltiples dispositivos, con implementación en WordPress, Webflow y Framer y optimización para rendimiento.
+                      </p>
+                    </div>
+                    <div class="cards__image d-flex animate-in-up">
+                      <img src="./img/services/diseno-web.png" alt="Diseño web">
+                    </div>
+                  </div>
+                </div>
+    
+              </div>
+            </div>
+          </div>
+          <!-- Bloque de contenido - Servicios Fin -->
+
+        </section>
+        <!-- Sección "Acerca de" Fin -->
+
+        <!-- Sección Resumen -->
+        <section id="resumen" class="inner resume">
+
+          <!-- Bloque de contenido - Título de sección H2 -->
+          <div class="content__block block-large">
+            <p class="h2__subtitle animate-in-up">
+              <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="13px" height="13px" viewBox="0 0 13 13" fill="currentColor">
+                <path fill="currentColor" d="M5.6,12.6c-0.5-0.8-0.7-2.4-1.7-3.5c-1-1-2.7-1.2-3.5-1.7C-0.1,7-0.1,6,0.4,5.6c0.8-0.5,2.3-0.6,3.5-1.8
+                  C5,2.8,5.1,1.2,5.6,0.4C6-0.1,7-0.1,7.4,0.4c0.5,0.8,0.7,2.4,1.8,3.5c1.2,1.2,2.6,1.2,3.5,1.7c0.6,0.4,0.6,1.4,0,1.7
+                  C11.8,7.9,10.2,8,9.1,9.1c-1,1-1.2,2.7-1.7,3.5C7,13.1,6,13.1,5.6,12.6z"/>
+              </svg>
+              <span>Resumen</span>
+            </p>
+            <h2 class="h2__title animate-in-up">Perfil</h2>
+            <p class="h2__text animate-in-up">
+              Profesional en Diseño Gráfico, con experiencia laboral en el área de diseño; desempeñando funciones de desarrollo y fortalecimiento de marca e imagen empresarial; diseño y estructuración de campañas de mailing y web; diseño de interfaz de usuario UI y experiencia de usuario UX; elaboración de piezas publicitarias para redes sociales; diagramación de revistas; conocimiento de método de Design Thinking; manejo de Wordpress, Elementor y Divi; uso de HTML, CSS y otros lenguajes de codigo como programador y programas Adobe Creative Suite. Con habilidades de compromiso, capacidad de análisis, mejoramiento continuo.
+            <!--  <a href="#0" class="text-link">might have been</a>  -->
+            </p>
+          </div>
+          <!-- Bloque de contenido - Título de sección H2 Fin -->
+
+          <!-- Bloque de contenido - Educación -->
+          <div class="content__block block-large">
+
+            <!-- Bloque H3 -->
+            <div class="section-h3">
+              <h3 class="h3__title animate-in-up">Educación</h3>
+            </div>
+            <!-- Bloque H3 Fin -->
+
+            <!-- Educación -->
+            <div class="container-fluid p-0 resume-lines">
+              <!-- Educación individual -->
+              <div class="row g-0 resume-lines__item animate-in-up">
+                <div class="col-12 col-md-2">
+                  <span class="resume-lines__date animate-in-up">2024 - 2025</span>
+                </div>
+                <div class="col-12 col-md-5">
+                  <h5 class="resume-lines__title animate-in-up">Desarrollo Web Full Stack</h5>
+                  <p class="resume-lines__source animate-in-up">Curso intensivo de la
+                    <a href="https://bitinstitute.online/" class="text-link-bold" target="_blank">BIT - Corporación Universitaria Iberoamericana</a>
+                  </p>
+                </div>
+                <!-- <div class="col-12 col-md-5">
+                  <p class="small resume-lines__descr animate-in-up">Intensive drawing courses that present the fundamental principles of drawing.</p>
+                </div> -->
+              </div>
+              <!-- Educación individual -->
+              <div class="row g-0 resume-lines__item animate-in-up">
+                <div class="col-12 col-md-2">
+                  <span class="resume-lines__date animate-in-up">2022 - 2022</span>
+                </div>
+                <div class="col-12 col-md-5">
+                  <h5 class="resume-lines__title animate-in-up">Diseño UX|UI</h5>
+                  <p class="resume-lines__source animate-in-up">Curso de  
+                    <a href="https://www.coderhouse.com/co/" class="text-link-bold" target="_blank">CoderHouse</a>
+                  </p>
+                </div>
+                <!-- <div class="col-12 col-md-5">
+                  <p class="small resume-lines__descr animate-in-up">Research, design, and prototype effective, visually-driven websites and apps.</p>
+                </div> -->
+              </div>
+              <!-- Educación individual -->
+              <div class="row g-0 resume-lines__item animate-in-up">
+                <div class="col-12 col-md-2">
+                  <span class="resume-lines__date animate-in-up">2011 - 2017</span>
+                </div>
+                <div class="col-12 col-md-5">
+                  <h5 class="resume-lines__title animate-in-up">Diseñador Gráfico</h5>
+                  <p class="resume-lines__source animate-in-up"> Egresado de la
+                    <a href="https://www.utadeo.edu.co/es" class="text-link-bold" target="_blank">Universidad Jorge Tadeo Lozano</a>
+                  </p>
+                </div>
+                <!-- <div class="col-12 col-md-5">
+                  <p class="small resume-lines__descr animate-in-up">This cource is about how to complete the design process from beginning to end.</p>
+                </div> -->
+              </div>
+            </div>
+            <!-- Educación Fin -->
+
+          </div>
+          <!-- Bloque de contenido - Educación Fin -->
+
+          <!-- Bloque de contenido - Experiencia -->
+          <div class="content__block block-large">
+
+            <!-- Bloque H3 -->
+            <div class="section-h3">
+              <h3 class="h3__title animate-in-up">Experiencia Laboral</h3>
+            </div>
+            <!-- Bloque H3 Fin -->
+
+            <!-- Líneas de experiencia -->
+            <div class="container-fluid p-0 resume-lines">
+              <!-- Experiencia individual -->
+              <div class="row g-0 resume-lines__item animate-in-up">
+                <div class="col-12 col-md-2">
+                  <span class="resume-lines__date animate-in-up">2025 - actual</span>
+                </div>
+                <div class="col-12 col-md-5">
+                  <h5 class="resume-lines__title animate-in-up">Diseñador web</h5>
+                  <p class="resume-lines__source animate-in-up">En
+                    <a href="https://colegiocambridge.edu.co/" class="text-link-bold" target="_blank">Colegio Cambridge</a>
+                  </p>
+                </div>
+                <div class="col-12 col-md-5">
+                  <p class="small resume-lines__descr animate-in-up">Diseñar y desarrollo de sitios web, adminitración y mantenimiento de sitios web, edición y actualización de contenido en sitios web, apoyo con diseño y elaboración de piezas grá cas, diseño de interfaz de usuario (UI) y creación de contenido audiovisual.</p>
+                </div>
+              </div>
+              <!-- Experiencia individual -->
+              <div class="row g-0 resume-lines__item animate-in-up">
+                <div class="col-12 col-md-2">
+                  <span class="resume-lines__date animate-in-up">2023 - 2024</span>
+                </div>
+                <div class="col-12 col-md-5">
+                  <h5 class="resume-lines__title animate-in-up">Director de Arte</h5>
+                  <p class="resume-lines__source animate-in-up">En 
+                    <a href="https://santomarketing.com.co/" class="text-link-bold" target="_blank">Santo evento</a>
+                  </p>
+                </div>
+                <div class="col-12 col-md-5">
+                  <p class="small resume-lines__descr animate-in-up">Realizar estrategias para la consecución de nuevos clientes que permitan el crecimiento de la agencia Grá ca, participar en las sesiones de equipo donde se aterice el concepto creativo y las piezas a realizar, diseñar la propuesta grá ca de acuerdo a los lineamientos planteados por el equipo, Desarrollar lo conceptos grá cos de las propuestas que presenta el equipo comercial, atender los requerimientos grá cos solicitados por cualquier cliente, diseñar Key visual, desarrollar y diseñar de gran formato y papeleria, diseñar y mockups de merchandising, motion graphics o animaciones plano de la marca clientes.</p>
+                </div>
+              </div>
+              <!-- Experiencia individual -->
+              <div class="row g-0 resume-lines__item animate-in-up">
+                <div class="col-12 col-md-2">
+                  <span class="resume-lines__date animate-in-up">2023 - 2023</span>
+                </div>
+                <div class="col-12 col-md-5">
+                  <h5 class="resume-lines__title animate-in-up">Diseñador/Desarrollador web</h5>
+                  <p class="resume-lines__source animate-in-up">En 
+                    <a href="https://www.lecri.agency/" class="text-link-bold" target="_blank">Vera BPO S.A.S - Lecri Agency</a>
+                  </p>
+                </div>
+                <div class="col-12 col-md-5">
+                  <p class="small resume-lines__descr animate-in-up">Diseñar y desarrollo de sitios web, adminitración y mantenimiento de sitios web, edición y actualización de contenido en sitios web, apoyo con diseño y elaboración de piezas gráficas y creación de contenido audiovisual.</p>
+                </div>
+              </div>
+              <!-- Experiencia individual -->
+              <div class="row g-0 resume-lines__item animate-in-up">
+                <div class="col-12 col-md-2">
+                  <span class="resume-lines__date animate-in-up">2019 - 2022</span>
+                </div>
+                <div class="col-12 col-md-5">
+                  <h5 class="resume-lines__title animate-in-up">Coordinador de diseño Web/Gráfico</h5>
+                  <p class="resume-lines__source animate-in-up">En 
+                    <a href="https://siete24.com/" class="text-link-bold" target="_blank">Siete24 - TSSLatam</a>
+                  </p>
+                </div>
+                <div class="col-12 col-md-5">
+                  <p class="small resume-lines__descr animate-in-up">Cubrimiento de eventos, elaboración de contenidos de material publicitario, diseño y desarrollo de piezas para redes sociales, diagramación y diseño de revistas, diseño interfaz de usuario y desarrollo de web (Wordpress) de Siete24 y TSSLatam.</p>
+                </div>
+              </div>
+              <!-- Experiencia individual -->
+              <div class="row g-0 resume-lines__item animate-in-up">
+                <div class="col-12 col-md-2">
+                  <span class="resume-lines__date animate-in-up">2018 - actual</span>
+                </div>
+                <div class="col-12 col-md-5">
+                  <h5 class="resume-lines__title animate-in-up">Freelancer</h5>
+                  <p class="resume-lines__source animate-in-up">En
+                    <a href="#0" class="text-link-bold" target="_blank">Freelance</a>
+                  </p>
+                </div>
+                <div class="col-12 col-md-5">
+                  <p class="small resume-lines__descr animate-in-up">Diseño y desarrollo de piezas para redes sociales, branding, Motion Graphics, Diseño web, Diseño UX/UI, Marketing Digital e ilustración.</p>
+                </div>
+              </div>
+              <!-- Experiencia individual -->
+              <div class="row g-0 resume-lines__item animate-in-up">
+                <div class="col-12 col-md-2">
+                  <span class="resume-lines__date animate-in-up">2018 - 2018</span>
+                </div>
+                <div class="col-12 col-md-5">
+                  <h5 class="resume-lines__title animate-in-up">Diseño Gráfico</h5>
+                  <p class="resume-lines__source animate-in-up">En
+                    <a href="https://www.cmfsa.com/" class="text-link-bold" target="_blank">Colombia CMF S.A</a>
+                  </p>
+                </div>
+                <div class="col-12 col-md-5">
+                  <p class="small resume-lines__descr animate-in-up">Cubrimiento de eventos, elaboración de contenidos de material publicitario, apoyo en actividades de mercadeo.</p>
+                </div>
+              </div>
+            </div>
+            <!-- Líneas de experiencia Fin -->
+
+          </div>
+          <!-- Bloque de contenido - Experiencia Fin -->
+
+          <!-- Bloque de contenido - Bloque H3 -->
+          <div class="content__block">
+            <div class="section-h3 section-h3-grid">
+              <h3 class="h3__title animate-in-up">Habilidades</h3>
+            </div>
+          </div>
+          <!-- Bloque de contenido - Bloque H3 Fin -->
+
+          <!-- Bloque de contenido - Lista de habilidades -->
+          <div class="content__block grid-block block-large">
+            <!-- Lista de habilidades -->
+            <div class="tools-cards d-flex justify-content-start flex-wrap">
+              <!-- Habilidad -->
+              <div class="tools-cards__item d-flex grid-item-s animate-card-5">
+                <div class="tools-cards__card">
+                  <img class="tools-cards__icon animate-in-up" src="img/icons/icon-photoshop.svg" alt="Tools Icon">
+                  <h6 class="tools-cards__caption animate-in-up">Photoshop</h6>
+                </div>
+              </div>
+              <!-- Habilidad -->
+              <div class="tools-cards__item d-flex grid-item-s animate-card-5">
+                <div class="tools-cards__card">
+                  <img class="tools-cards__icon animate-in-up" src="img/icons/icon-illustrator.svg" alt="Tools Icon">
+                  <h6 class="tools-cards__caption animate-in-up">Illustrator</h6>
+                </div>
+              </div>
+              <!-- Habilidad -->
+              <div class="tools-cards__item d-flex grid-item-s animate-card-5">
+                <div class="tools-cards__card">
+                  <img class="tools-cards__icon animate-in-up" src="img/icons/icon-premiere-pro.svg" alt="Tools Icon">
+                  <h6 class="tools-cards__caption animate-in-up">Premiere Pro</h6>
+                </div>
+              </div>
+              <!-- Habilidad -->
+              <div class="tools-cards__item d-flex grid-item-s animate-card-5">
+                <div class="tools-cards__card">
+                  <img class="tools-cards__icon animate-in-up" src="img/icons/icon-after-effects.svg" alt="Tools Icon">
+                  <h6 class="tools-cards__caption animate-in-up">After Effects</h6>
+                </div>
+              </div>
+              <!-- Habilidad -->
+              <div class="tools-cards__item d-flex grid-item-s animate-card-5">
+                <div class="tools-cards__card">
+                  <img class="tools-cards__icon animate-in-up" src="img/icons/icon-lightroom.svg" alt="Tools Icon">
+                  <h6 class="tools-cards__caption animate-in-up">Lightroom</h6>
+                </div>
+              </div>
+              <!-- Habilidad -->
+              <div class="tools-cards__item d-flex grid-item-s animate-card-5">
+                <div class="tools-cards__card">
+                  <img class="tools-cards__icon animate-in-up" src="img/icons/icon-figma.svg" alt="Tools Icon">
+                  <h6 class="tools-cards__caption animate-in-up">Figma</h6>
+                </div>
+              </div>
+              <!-- Habilidad -->
+              <div class="tools-cards__item d-flex grid-item-s animate-card-5">
+                <div class="tools-cards__card">
+                  <img class="tools-cards__icon animate-in-up" src="img/icons/icon-wordpress.svg" alt="Tools Icon">
+                  <h6 class="tools-cards__caption animate-in-up">Wordpress</h6>
+                </div>
+              </div>
+              <!-- Habilidad -->
+              <div class="tools-cards__item d-flex grid-item-s animate-card-5">
+                <div class="tools-cards__card">
+                  <img class="tools-cards__icon animate-in-up" src="img/icons/icon-vsc.svg" alt="Tools Icon">
+                  <h6 class="tools-cards__caption animate-in-up">Visual Studio Code</h6>
+                </div>
+              </div>
+              <!-- Habilidad -->
+              <div class="tools-cards__item d-flex grid-item-s animate-card-5">
+                <div class="tools-cards__card">
+                  <img class="tools-cards__icon animate-in-up" src="img/icons/icon-html.svg" alt="Tools Icon">
+                  <h6 class="tools-cards__caption animate-in-up">HTML</h6>
+                </div>
+              </div>
+              <!-- Habilidad -->
+              <div class="tools-cards__item d-flex grid-item-s animate-card-5">
+                <div class="tools-cards__card">
+                  <img class="tools-cards__icon animate-in-up" src="img/icons/icon-css.svg" alt="Tools Icon">
+                  <h6 class="tools-cards__caption animate-in-up">CSS</h6>
+                </div>
+              </div>
+            </div>
+            <!-- Lista de Habilidad Fin -->
+          </div>
+          <!-- Content Block - Tools List End -->
+          <!-- Content Block - H2 Block Start -->
+          <!-- <div class="content__block section-title">
+            <p class="h2__subtitle animate-in-up">
+              <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="13px" height="13px" viewBox="0 0 13 13" fill="currentColor">
+                <path fill="currentColor" d="M5.6,12.6c-0.5-0.8-0.7-2.4-1.7-3.5c-1-1-2.7-1.2-3.5-1.7C-0.1,7-0.1,6,0.4,5.6c0.8-0.5,2.3-0.6,3.5-1.8
+                  C5,2.8,5.1,1.2,5.6,0.4C6-0.1,7-0.1,7.4,0.4c0.5,0.8,0.7,2.4,1.8,3.5c1.2,1.2,2.6,1.2,3.5,1.7c0.6,0.4,0.6,1.4,0,1.7
+                  C11.8,7.9,10.2,8,9.1,9.1c-1,1-1.2,2.7-1.7,3.5C7,13.1,6,13.1,5.6,12.6z"/>
+              </svg>
+              <span>Testimonios</span>
+            </p>
+            <h2 class="h2__title animate-in-up">Comentarios de mi perfil</h2>
+          </div> -->
+
+            <!-- Testimonials Slider Start -->
+            <!-- Testimonials Slider End -->
+          <!--
+          </div> -->
+          <!-- Content Block - Testimonials Slider End -->
+
+        </section>
+        <!-- Sección Resumen Fin -->
+
+        <!-- Seccion de redes sociales -->
+        <section id="redessociales" class="inner contact">
+
+           <!-- Bloque de contenido - Bloque H3 -->
+          <div class="content__block">
+            <div class="section-h3 section-h3-grid">
+              <h3 class="h3__title animate-in-up">Siguenos a mis redes sociales</h3>
+            </div>
+          </div>
+          <!-- Bloque de contenido - Bloque H3 Fin -->
+
+          <!-- Bloque de contenido - Redes Sociales -->
+          <div class="content__block grid-block">
+            <div class="socials-cards d-flex justify-content-start flex-wrap">
+              <!-- Behance -->
+              <div class="socials-cards__item d-flex grid-item-s animate-card-5">
+                <div class="socials-cards__card">
+                  <i class="ph-bold ph-behance-logo"></i>
+                  <a class="socials-cards__link" href="https://www.behance.net/juanssacristan" target="_blank"></a>
+                </div>
+              </div>
+              <!-- Instagram -->
+              <div class="socials-cards__item d-flex grid-item-s animate-card-5">
+                <div class="socials-cards__card">
+                  <i class="ph-bold ph-instagram-logo"></i>
+                  <a class="socials-cards__link" href="https://www.instagram.com/estesacristan/" target="_blank"></a>
+                </div>
+              </div>
+              <!-- Linkedin -->
+              <div class="socials-cards__item d-flex grid-item-s animate-card-5">
+                <div class="socials-cards__card">
+                  <i class="ph-bold ph-linkedin-logo"></i>
+                  <a class="socials-cards__link" href="https://www.linkedin.com/in/juan-sacristan/" target="_blank"></a>
+                </div>
+              </div>
+              <!-- GitHub -->
+              <div class="socials-cards__item d-flex grid-item-s animate-card-5">
+                <div class="socials-cards__card">
+                  <i class="ph-bold ph-github-logo"></i>
+                  <a class="socials-cards__link" href="https://github.com/juansacristan" target="_blank"></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Bloque de contenido - Redes Sociales Fin -->
+
+          <!-- Content Block - Teaser Start -->
+          <div class="content__block">
+            <div class="teaser">
+              <p class="teaser__text animate-in-up">¿Quieres saber más sobre mí, contarme sobre tu proyecto o simplemente saludarme?
+                <a class="text-link-bold" href="https://api.whatsapp.com/send?phone=573003405678&text=hola" target="_blank">Escríbeme</a> 
+                y te responderé lo antes posible.
+              </p>
+            </div>
+          </div>
+          <!-- Content Block - Teaser End -->
+
+          <!-- Bloque de contenido - Datos de contacto -->
+          <div class="content__block">
+            <div class="container-fluid p-0 contact-lines animate-in-up">
+              <div class="row g-0 contact-lines__item">
+                <!-- Dato locación -->
+                <div class="col-12 col-md-4 contact-lines__data">
+                  <p class="contact-lines__title animate-in-up">Locación</p>
+                  <p class="contact-lines__text animate-in-up">
+                    <a class="text-link-bold" href="https://maps.app.goo.gl/ZKFkysM7wowWeXM59" target="_blank">Bogotá, Colombia</a>
+                  </p>
+                </div>
+                <!-- Dato telefono -->
+                <div class="col-12 col-md-4 contact-lines__data">
+                  <p class="contact-lines__title animate-in-up">Telefono</p>
+                  <p class="contact-lines__text animate-in-up">
+                    <a class="text-link-bold" href="https://api.whatsapp.com/send?phone=573003405678&text=hola">+57 300 3405678</a>
+                  </p>
+                </div>
+                <!-- Dato email -->
+                <div class="col-12 col-md-4 contact-lines__data">
+                  <p class="contact-lines__title animate-in-up">Email</p>
+                  <p class="contact-lines__text animate-in-up">
+                    <a class="text-link-bold" href="mailto:juanenciso1007@gmail.com?subject=Message%20from%20your%20site">juanenciso1007@gmail.com</a>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Bloque de contenido - Datos de contacto fin -->
+
+        </section>
+        <!-- Seccion de redes sociales Fin -->
+
+      </div>
+    </div>
+    <!-- Contenido de la página Fin
+     -->
+     <!-- Root element of PhotoSwipe. Must have class pswp. -->
+    <div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+      <!-- Background of PhotoSwipe.
+      It's a separate element, as animating opacity is faster than rgba(). -->
+      <div class="pswp__bg"></div>
+
+      <!-- Slides wrapper with overflow:hidden. -->
+      <div class="pswp__scroll-wrap">
+
+        <!-- Container that holds slides. PhotoSwipe keeps only 3 slides in DOM to save memory. -->
+        <!-- don't modify these 3 pswp__item elements, data is added later on. -->
+        <div class="pswp__container">
+          <div class="pswp__item"></div>
+          <div class="pswp__item"></div>
+          <div class="pswp__item"></div>
+        </div>
+
+        <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
+        <div class="pswp__ui pswp__ui--hidden">
+
+          <div class="pswp__top-bar">
+
+            <!--  Controls are self-explanatory. Order can be changed. -->
+
+            <div class="pswp__counter"></div>
+
+            <button class="pswp__button pswp__button--close link-s" title="Close (Esc)"></button>
+
+            <button class="pswp__button pswp__button--share link-s" title="Share"></button>
+
+            <button class="pswp__button pswp__button--fs link-s" title="Toggle fullscreen"></button>
+
+            <button class="pswp__button pswp__button--zoom link-s" title="Zoom in/out"></button>
+
+            <!-- Precargado demo http://codepen.io/dimsemenov/pen/yyBWoR -->
+            <!-- element will get class pswp__preloader-active when preloader is running -->
+            <div class="pswp__preloader">
+              <div class="pswp__preloader__icn">
+                <div class="pswp__preloader__cut">
+                  <div class="pswp__preloader__donut"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+              <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left link-s" title="Previous (arrow left)"></button>
+
+            <button class="pswp__button pswp__button--arrow--right link-s" title="Next (arrow right)"></button>
+
+            <div class="pswp__caption">
+              <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <!-- JavaScript -->
+    <script src="js/libs.min.js"></script>
+    <script>
+      const randomX = random(-400, 400);
+      const randomY = random(-200, 200);
+      const randomDelay = random(0, 50);
+      const randomTime = random(20, 40);
+      const randomTime2 = random(5, 12);
+      const randomAngle = random(-30, 150);
+
+      const blurs = gsap.utils.toArray(".blur");
+      blurs.forEach((blur) => {
+        gsap.set(blur, {
+          x: randomX(-1),
+          y: randomX(1),
+          rotation: randomAngle(-1)
+        });
+
+        moveX(blur, 1);
+        moveY(blur, -1);
+        rotate(blur, 1);
+      });
+
+      function rotate(target, direction) {
+        gsap.to(target, randomTime2(), {
+          rotation: randomAngle(direction),
+          ease: Sine.easeInOut,
+          onComplete: rotate,
+          onCompleteParams: [target, direction * -1]
+        });
+      }
+
+      function moveX(target, direction) {
+        gsap.to(target, randomTime(), {
+          x: randomX(direction),
+          ease: Sine.easeInOut,
+          onComplete: moveX,
+          onCompleteParams: [target, direction * -1]
+        });
+      }
+
+      function moveY(target, direction) {
+        gsap.to(target, randomTime(), {
+          y: randomY(direction),
+          ease: Sine.easeInOut,
+          onComplete: moveY,
+          onCompleteParams: [target, direction * -1]
+        });
+      }
+
+      function random(min, max) {
+        const delta = max - min;
+        return (direction = 1) => (min + delta * Math.random()) * direction;
+      }
+    </script>
+    <script src="js/app.js"></script>
+    <script src="js/gallery-init.js"></script>
+    <!-- JavaScript Fin -->
+    
+  </body>
+
+</html>

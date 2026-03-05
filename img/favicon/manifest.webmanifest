@@ -1,0 +1,11 @@
+{
+  "name": "Sacristán - Portafolio personal de Juan Sacristán",
+  "short_name": "Hoja de vida",
+  "icons": [
+    { "src": "/img/favicon/android-icon-192.png", "type": "image/png", "sizes": "192x192" },
+    { "src": "/img/favicon/android-icon-512.png", "type": "image/png", "sizes": "512x512" }
+  ],
+  "theme_color": "#263646",
+  "background_color": "#263646",
+  "display": "standalone"
+}
