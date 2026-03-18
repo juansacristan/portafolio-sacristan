@@ -1,36 +1,3 @@
-// ------------------------------------------------
-// Project Name: Braxton - Personal Portfolio & Resume HTML Template
-// Project Description: Show yourself brightly with Braxton - unique and creative portfolio and resume template!
-// Tags: mix_design, resume, portfolio, personal page, cv, template, one page, responsive, html5, css3, creative, clean
-// Version: 1.0.0
-// Build Date: March 2024
-// Last Update: March 2024
-// This product is available exclusively on Themeforest
-// Author: mix_design
-// Author URI: https://themeforest.net/user/mix_design
-// File name: demo.js
-// ------------------------------------------------
-
-// ------------------------------------------------
-// Table of Contents
-// ------------------------------------------------
-//
-//  01. Loader & Loading Animation
-//  02. Lenis Scroll Plugin
-//  03. Parallax
-//  04. Scroll Animations
-//  05. Smooth Scrolling
-//  06. SVG Fallback
-//  07. Chrome Smooth Scroll
-//  08. Images Moving Ban
-//  09. Scroll To Top
-//  10. Color Switch
-//  11. Marquee
-//
-// ------------------------------------------------
-// Table of Contents End
-// ------------------------------------------------
-
 $(function() {
 
   "use strict";
@@ -38,7 +5,7 @@ $(function() {
   gsap.registerPlugin(ScrollTrigger);
 
   // --------------------------------------------- //
-  // Loader & Loading Animation Start
+  // Loader & Loading Animation
   // --------------------------------------------- //
   const content = document.querySelector('body');
   const imgLoad = imagesLoaded(content);
@@ -77,11 +44,11 @@ $(function() {
 
   });
   // --------------------------------------------- //
-  // Loader & Loading Animation End
+  // Loader & Loading Animation Fin
   // --------------------------------------------- //
 
   // --------------------------------------------- //
-  // Lenis Scroll Plugin Start
+  // Lenis Scroll Plugin
   // --------------------------------------------- //
   const lenis = new Lenis()
   function raf(time) {
@@ -90,11 +57,11 @@ $(function() {
   }
   requestAnimationFrame(raf)
   // --------------------------------------------- //
-  // Lenis Scroll Plugin End
+  // Lenis Scroll Plugin Fin
   // --------------------------------------------- //
 
   // ------------------------------------------------------------------------------ //
-  // Parallax (apply parallax effect to any element with a data-speed attribute) Start
+  // Parallax (apply parallax effect to any element with a data-speed attribute)
   // ------------------------------------------------------------------------------ //
   gsap.to("[data-speed]", {
     y: (i, el) => (1 - parseFloat(el.getAttribute("data-speed"))) * ScrollTrigger.maxScroll(window) ,
@@ -107,11 +74,11 @@ $(function() {
     }
   });
   // --------------------------------------------- //
-  // Parallax End
+  // Parallax Fin
   // --------------------------------------------- //
 
   // --------------------------------------------- //
-  // Scroll Animations Start
+  // Scroll Animations
   // --------------------------------------------- //
   // Animation In Up
   const animateInUp = document.querySelectorAll(".animate-in-up");
@@ -149,11 +116,11 @@ $(function() {
     onLeaveBack: batch => gsap.set(batch, {opacity: 0, y: 100, overwrite: true})
   });
   // --------------------------------------------- //
-  // Scroll Animations End
+  // Scroll Animations Fin
   // --------------------------------------------- //
 
   // --------------------------------------------- //
-  // Smooth Scrolling Start
+  // Smooth Scrolling
   // --------------------------------------------- //
   $('a[href*="#"]').not('[href="#"]').not('[href="#0"]').click(function(event) {
     if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
@@ -177,11 +144,11 @@ $(function() {
     }
   });
   // --------------------------------------------- //
-  // Smooth Scrolling End
+  // Smooth Scrolling Fin
   // --------------------------------------------- //
 
   // --------------------------------------------- //
-  // SVG Fallback Start
+  // SVG Fallback
   // --------------------------------------------- //
   if(!Modernizr.svg) {
     $("img[src*='svg']").attr("src", function() {
@@ -189,11 +156,11 @@ $(function() {
     });
   };
   // --------------------------------------------- //
-  // SVG Fallback End
+  // SVG Fallback Fin
   // --------------------------------------------- //
 
   // --------------------------------------------- //
-  // Chrome Smooth Scroll Start
+  // Chrome Smooth Scroll
   // --------------------------------------------- //
   try {
     $.browserSelector();
@@ -203,19 +170,19 @@ $(function() {
   } catch(err) {
   };
   // --------------------------------------------- //
-  // Chrome Smooth Scroll End
+  // Chrome Smooth Scroll Fin
   // --------------------------------------------- //
 
   // --------------------------------------------- //
-  // Images Moving Ban Start
+  // Images Moving Ban
   // --------------------------------------------- //
   $("img, a").on("dragstart", function(event) { event.preventDefault(); });
   // --------------------------------------------- //
-  // Images Moving Ban End
+  // Images Moving Ban Fin
   // --------------------------------------------- //
 
   // --------------------------------------------- //
-  // S Start
+  // Scroll To Top 
   // --------------------------------------------- //
   var offset = 300,
       offset_opacity = 1200,
@@ -237,13 +204,13 @@ $(function() {
 		);
 	});
   // --------------------------------------------- //
-  // Scroll To Top End
+  // Scroll To Top Fin
   // --------------------------------------------- //
 
 });
 
 // --------------------------------------------- //
-// Color Switch Start
+// Color Switch
 // --------------------------------------------- //
 const themeBtn = document.querySelector('.color-switcher');
 
@@ -278,11 +245,11 @@ window.addEventListener('DOMContentLoaded', () => {
   loadTheme(getCurrentTheme());
 });
 // --------------------------------------------- //
-// Color Switch End
+// Color Switch Fin
 // --------------------------------------------- //
 
 // --------------------------------------------- //
-// Marquee Start
+// Marquee
 // --------------------------------------------- //
 let currentScroll = 0;
 let isScrollingDown = true;
@@ -320,5 +287,5 @@ window.addEventListener("scroll", function() {
   currentScroll = window.pageYOffset;
 });
 // --------------------------------------------- //
-// Marquee End
+// Marquee Fin
 // --------------------------------------------- //
